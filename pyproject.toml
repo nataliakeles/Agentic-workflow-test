@@ -6,7 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "agno>=2.2.10",
+    "anthropic>=0.72.0",
+    "fastapi>=0.121.0",
+    "mcp>=1.21.0",
     "pandas>=2.3.3",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
 ]
 authors = [
     { name = "Natália Keles", email = "keles.natalia@gmail.com" },
